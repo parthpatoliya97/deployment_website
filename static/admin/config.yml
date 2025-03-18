@@ -441,7 +441,7 @@ collections:
     files:
       - label : "Meta Information Section"
         name : "meta"
-        file : "src/lib/content/jupitermeet.json"
+        file : "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Meta details"
             name : "meta"
@@ -456,7 +456,7 @@ collections:
 
       - label: "Hero Section"
         name : "hero"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Hero Details"
             name: "hero"
@@ -476,7 +476,7 @@ collections:
 
       - label: "Logo Section"
         name: "logos"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Logos Details"
             name: "logos"
@@ -494,7 +494,7 @@ collections:
 
       - label : "Advantages Section"
         name : "advantages"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label : "Advantages in Details"
             name : "advantages"
@@ -515,7 +515,7 @@ collections:
 
       - label: "Make Money Section"
         name: "makeMoney"
-        file : "src/lib/content/jupitermeet.json"
+        file : "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Make Money Details"
             name: "makeMoney"
@@ -534,7 +534,7 @@ collections:
                    
       - label : "Feature Section"
         name : "features"      
-        file : "src/lib/content/jupitermeet.json"          
+        file : "src/lib/content/products/jupitermeet.json"          
         fields:
           - label : "Features Details"
             name : "features"
@@ -555,7 +555,7 @@ collections:
 
       - label : "Pricing Section"
         name : "pricing"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Pricing Details"
             name: "pricing"
@@ -586,7 +586,7 @@ collections:
 
       - label : "How It Works Section"
         name : "howItWorks"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "HowItWorks Details"
             name: "howItWorks"
@@ -605,7 +605,7 @@ collections:
 
       - label : "Gallery Section"
         name : "gallery"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Gallery Portion"
             name: "gallery"
@@ -623,7 +623,7 @@ collections:
 
       - label : "Benefits Section"
         name : "benefits"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label : "Benefits Details"
             name : "benefits"
@@ -642,7 +642,7 @@ collections:
                   
       - label : "Testimonials Section"
         name : "testimonials"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label : "Testimonials Details"
             name : "testimonials"
@@ -661,7 +661,7 @@ collections:
 
       - label : "FAQ Section"
         name : "faqs"
-        file : "src/lib/content/jupitermeet.json"
+        file : "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "FAQ Details"
             name: "faqs"
@@ -680,7 +680,7 @@ collections:
 
       - label: "CTA Section"
         name : "ctas"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - {label: "Title",name: "title",widget: "String"}
           - label: "CTA Buttons"
@@ -692,7 +692,7 @@ collections:
 
       - label : "Blog Section"
         name : "blogs"
-        file: "src/lib/content/jupitermeet.json"
+        file: "src/lib/content/products/jupitermeet.json"
         fields:
           - label: "Blog Details"
             name : "blogs"
