@@ -13,7 +13,7 @@ collections:
     files:
       - label: "Meta Information Section"
         name: "meta"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Meta Configuration"
             name: "meta"
@@ -28,7 +28,7 @@ collections:
 
       - label: "Hero Section"
         name: "hero"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Hero details"
             name: "hero"
@@ -48,7 +48,7 @@ collections:
 
       - label : "Logo Section"
         name : "logos"
-        file : "$lib/content/home.json"
+        file : "src/lib/content/home.json"
         fields:
           - label : "logos details"
             name : "logos"
@@ -67,7 +67,7 @@ collections:
 
       - label: "Services Section"
         name: "services"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Services details"
             name: "services"
@@ -88,7 +88,7 @@ collections:
 
       - label: "Products Section"
         name: "products"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Products details"
             name: "products"
@@ -109,7 +109,7 @@ collections:
 
       - label: "Tech Section"
         name: "tech"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Tech details"
             name: "tech"
@@ -126,7 +126,7 @@ collections:
 
       - label: "Stats Section"
         name: "stats"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Stats details"
             name: "stats"
@@ -146,7 +146,7 @@ collections:
 
       - label: "World Dominance Section"
         name: "worldDominance"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "World Dominance details"
             name: "worldDominance"
@@ -160,7 +160,7 @@ collections:
 
       - label: "Showcase Section"
         name: "showcase"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Showcase details"
             name: "showcase"
@@ -176,7 +176,7 @@ collections:
 
       - label: "Industries Section"
         name: "industries"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Industries details"
             name: "industries"
@@ -197,7 +197,7 @@ collections:
 
       - label: "Why Choose Us Section"
         name: "whyChooseUs"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Why Choose Us details"
             name: "whyChooseUs"
@@ -222,7 +222,7 @@ collections:
 
       - label: "Testimonials Section"
         name: "testimonials"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Testimonials details"
             name: "testimonials"
@@ -243,7 +243,7 @@ collections:
 
       - label: "Core Values Section"
         name: "coreValues"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Core Values details"
             name: "coreValues"
@@ -263,7 +263,7 @@ collections:
 
       - label: "Compliance Section"
         name: "compliance"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Compliance details"
             name: "compliance"
@@ -273,7 +273,7 @@ collections:
 
       - label: "FAQ Section"
         name: "faq"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "FAQ details"
             name: "faq"
@@ -293,7 +293,7 @@ collections:
 
       - label: "CTA Section"
         name: "cta"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "CTA details"
             name: "cta"
@@ -311,7 +311,7 @@ collections:
 
       - label: "Blogs Section"
         name: "blogs"
-        file: "$lib/content/home.json"
+        file: "src/lib/content/home.json"
         fields:
           - label: "Blogs details"
             name: "blogs"
@@ -348,7 +348,7 @@ collections:
     files:
       - label : "Banner Section"
         name : "banner"
-        file : "$lib/content/header-footer.json"
+        file : "src/lib/content/header-footer.json"
         fields:
           - label: "Banner details"
             name: "banner"
@@ -363,7 +363,7 @@ collections:
 
       - label: "Header Section"
         name: "header"
-        file: "$lib/content/header-footer.json"
+        file: "src/lib/content/header-footer.json"
         fields:
           - label: "Header details"
             name: "header"
@@ -397,7 +397,7 @@ collections:
 
       - label: "Footer Section"
         name: "footer"
-        file: "$lib/content/header-footer.json"
+        file: "src/lib/content/header-footer.json"
         fields:
           - label: "Footer details"
             name: "footer"
@@ -441,7 +441,7 @@ collections:
     files:
       - label : "Meta Information Section"
         name : "meta"
-        file : "$lib/content/jupitermeet.json"
+        file : "src/lib/content/jupitermeet.json"
         fields:
           - label: "Meta details"
             name : "meta"
@@ -456,7 +456,7 @@ collections:
 
       - label: "Hero Section"
         name : "hero"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label: "Hero Details"
             name: "hero"
@@ -476,7 +476,7 @@ collections:
 
       - label: "Logo Section"
         name: "logos"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label: "Logos Details"
             name: "logos"
@@ -494,7 +494,7 @@ collections:
 
       - label : "Advantages Section"
         name : "advantages"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label : "Advantages in Details"
             name : "advantages"
@@ -515,7 +515,7 @@ collections:
 
       - label: "Make Money Section"
         name: "makeMoney"
-        file : "$lib/content/jupitermeet.json"
+        file : "src/lib/content/jupitermeet.json"
         fields:
           - label: "Make Money Details"
             name: "makeMoney"
@@ -534,7 +534,7 @@ collections:
                    
       - label : "Feature Section"
         name : "features"      
-        file : "$lib/content/jupitermeet.json"          
+        file : "src/lib/content/jupitermeet.json"          
         fields:
           - label : "Features Details"
             name : "features"
@@ -555,7 +555,7 @@ collections:
 
       - label : "Pricing Section"
         name : "pricing"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label: "Pricing Details"
             name: "pricing"
@@ -586,7 +586,7 @@ collections:
 
       - label : "How It Works Section"
         name : "howItWorks"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label: "HowItWorks Details"
             name: "howItWorks"
@@ -605,7 +605,7 @@ collections:
 
       - label : "Gallery Section"
         name : "gallery"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label: "Gallery Portion"
             name: "gallery"
@@ -623,7 +623,7 @@ collections:
 
       - label : "Benefits Section"
         name : "benefits"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label : "Benefits Details"
             name : "benefits"
@@ -642,7 +642,7 @@ collections:
                   
       - label : "Testimonials Section"
         name : "testimonials"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label : "Testimonials Details"
             name : "testimonials"
@@ -661,7 +661,7 @@ collections:
 
       - label : "FAQ Section"
         name : "faqs"
-        file : "$lib/content/jupitermeet.json"
+        file : "src/lib/content/jupitermeet.json"
         fields:
           - label: "FAQ Details"
             name: "faqs"
@@ -680,7 +680,7 @@ collections:
 
       - label: "CTA Section"
         name : "ctas"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - {label: "Title",name: "title",widget: "String"}
           - label: "CTA Buttons"
@@ -692,7 +692,7 @@ collections:
 
       - label : "Blog Section"
         name : "blogs"
-        file: "$lib/content/jupitermeet.json"
+        file: "src/lib/content/jupitermeet.json"
         fields:
           - label: "Blog Details"
             name : "blogs"
