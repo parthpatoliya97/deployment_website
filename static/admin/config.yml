@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/parthpatoliya97/sveltia_cms_demo.git
+  repo: https://github.com/parthpatoliya97/deployment_website.git
   branch: main
 
 media_folder: "static/images"
