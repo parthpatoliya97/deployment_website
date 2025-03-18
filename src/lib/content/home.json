@@ -1,0 +1,466 @@
+{
+    "meta": {
+        "slug": "/",
+        "pageTitle": "Jupiter Softwares - Self-Hosted WebRTC Solutions",
+        "metaTitle": "Jupiter Softwares - Secure, White-Label Video Conferencing",
+        "image": "/images/desktop.png",
+        "type": "website",
+        "description": "Jupiter Softwares provides self-hosted, white-label video conferencing and WebRTC solutions."
+    },
+    "hero": {
+        "title": "Powerful & Secure WebRTC Solutions for the world",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+        "image": "/images/hero_image.png",
+        "bgColor": "#f0f0f0",
+        "primaryColor": "green",
+        "ctas": [
+            {
+                "title": "Check out",
+                "link": "products"
+            },
+            {
+                "title": "Contact us",
+                "link": "contact"
+            }
+        ]
+    },
+    "logos": {
+        "title": "Trusted by Businesses Worldwide",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+        "bgColor": "#ffffff",
+        "images": [
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/transistor-logo-white.svg",
+                "alt": "Transistor"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg",
+                "alt": "Reform"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/tuple-logo-white.svg",
+                "alt": "Tuple"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg",
+                "alt": "SavvyCal"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/statamic-logo-white.svg",
+                "alt": "Statamic"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/transistor-logo-white.svg",
+                "alt": "Transistor"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg",
+                "alt": "Reform"
+            }
+        ]
+    },
+    "services": {
+        "label": "Services",
+        "title": "Our Services",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+        "data": [
+            {
+                "title": "Development",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "bgColor": "bg-rose-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            },
+            {
+                "title": "Installation",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "bgColor": "bg-blue-50",
+                "link": "services/installation",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z' clip-rule='evenodd' /></svg>`"
+            },
+            {
+                "title": "Consultation",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "bgColor": "bg-lime-50",
+                "link": "services/consultation",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z' clip-rule='evenodd' /></svg>"
+            }
+        ]
+    },
+    "products": {
+        "label": "Products",
+        "title": "Our ready-to-use WebRTC products",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "data": [
+            {
+                "title": "JupiterMeet",
+                "description": "Peer-to-peer WebRTC video conferencing Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+                "image": "/images/jupitermeet.png",
+                "alt": "JupiterMeet",
+                "link": "/products/jupitermeet"
+            },
+            {
+                "title": "JupiterMeet Pro",
+                "description": "Scalable SFU-based WebRTC conferencing Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+                "image": "/images/jupitermeet-pro.png",
+                "alt": "JupiterMeet Pro",
+                "link": "/products/jupitermeet-pro"
+            }
+        ]
+    },
+    "tech": {
+        "title": "Our Technology Stack",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "data": [
+            {
+                "image": "https://tailwindui.com/plus-assets/img/logos/tuple-logo-white.svg",
+                "alt": "Tuple"
+            },
+            {
+                "image": "https://tailwindui.com/plus-assets/img/logos/reform-logo-white.svg",
+                "alt": "Reform"
+            },
+            {
+                "image": "https://tailwindui.com/plus-assets/img/logos/tuple-logo-white.svg",
+                "alt": "Tuple"
+            },
+            {
+                "image": "https://tailwindui.com/plus-assets/img/logos/tuple-logo-white.svg",
+                "alt": "Tuple"
+            },
+            {
+                "image": "https://tailwindui.com/plus-assets/img/logos/tuple-logo-white.svg",
+                "alt": "Tuple"
+            },
+            {
+                "image": "https://tailwindui.com/plus-assets/img/logos/tuple-logo-white.svg",
+                "alt": "Tuple"
+            }
+        ]
+    },
+    "stats": {
+        "label": "Statistics",
+        "title": "Made in India, Trusted Globally",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+        "bgImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80&blend=111827&blend-mode=multiply&sat=-100&exp=15",
+        "alt": "Statistics",
+        "data": [
+            {
+                "title": "Years in business",
+                "description": "5+"
+            },
+            {
+                "title": "Licenses Sold",
+                "description": "730+"
+            },
+            {
+                "title": "Countries Served",
+                "description": "100+"
+            },
+            {
+                "title": "Success Rate",
+                "description": "100%"
+            }
+        ]
+    },
+    "worldDominance": {
+        "label": "Global Presence",
+        "title": "JupiterMeet is used worldwide in more than 100+ countries",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "bgImage": "/images/map.jpg",
+        "alt": "World map"
+    },
+    "showcase": {
+        "images": [
+            "1.jpg",
+            "2.jpg"
+        ],
+        "title": "Experience the power of JupiterMeet",
+        "bgColor": "#ffffff"
+    },
+    "industries": {
+        "label": "Industries",
+        "title": "Companies We've Worked With",
+        "description": "We have collaborated with various industries to deliver exceptional solutions.",
+        "data": [
+            {
+                "title": "Education",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "link": "industries/education",
+                "bgColor": "bg-red-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Healthcare",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "link": "industries/healthcare",
+                "bgColor": "bg-blue-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Government",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "link": "industries/government",
+                "bgColor": "bg-green-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Social Media",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "link": "industries/social-media",
+                "bgColor": "bg-sky-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Dating",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "link": "industries/dating",
+                "bgColor": "bg-yellow-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Group Meetings",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                "link": "industries/group-meetings",
+                "bgColor": "bg-teal-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            }
+        ]
+    },
+    "whyChooseUs": {
+        "label": "Why Choose Us",
+        "description": "Discover the key benefits of using JupiterMeet for seamless online meetings and collaborations.",
+        "bgColor": "#f0f0f0",
+        "demoImages": [
+            "jupitermeet.jpg",
+            "jupitermeet_pro.jpg"
+        ],
+        "data": [
+            {
+                "id": 1,
+                "title": "User -Friendly Interface",
+                "description": "Easy-to-use interface with no installation required",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 2,
+                "title": "High-Quality Communication",
+                "description": "High-quality video and audio for smooth communication",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 3,
+                "title": "Secure Conversations",
+                "description": "End-to-end encryption for secure conversations",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 4,
+                "title": "Custom Branding",
+                "description": "Custom branding and personalization options",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 5,
+                "title": "Scalability",
+                "description": "Scalability from small teams to large enterprises",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 6,
+                "title": "AI-Powered Features",
+                "description": "Advanced AI-powered features in JupiterMeet Pro",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 7,
+                "title": "Industry Expertise",
+                "description": "Backed by years of experience in WebRTC and real-time communication solutions.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 8,
+                "title": "Customer-Centric Approach",
+                "description": "We prioritize your needs with tailored solutions and dedicated support.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 9,
+                "title": "Trusted by Businesses",
+                "description": "Serving a growing network of B2B clients across various industries.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 10,
+                "title": "Innovation-Driven",
+                "description": "Constantly evolving with the latest technologies to keep you ahead.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 11,
+                "title": "Transparent Pricing",
+                "description": "No hidden fees, just clear and fair pricing for all our services.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 12,
+                "title": "Reliable Support",
+                "description": "Get expert assistance within 2 business days, guaranteed.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 13,
+                "title": "Quality & Excellence",
+                "description": "We ensure top-notch development, clean code, and seamless functionality.",
+                "bgColor": "#f0f0f0"
+            },
+            {
+                "id": 14,
+                "title": "Global Reach",
+                "description": "Our solutions are trusted and implemented by businesses worldwide.",
+                "bgColor": "#f0f0f0"
+            }
+        ]
+    },
+    "testimonials": {
+        "label": "Testimonials",
+        "title": "What Our customers Say",
+        "description": "See what our satisfied customers have to say about their experience with our company.",
+        "bgColor": "#ffffff",
+        "data": [
+            {
+                "id": "1",
+                "title": "Sarah Johnson",
+                "description": "JupiterMeet has transformed the way we conduct virtual meetings. The ease of use and high-quality video make it a game-changer!",
+                "image": "/images/user1.png"
+            },
+            {
+                "id": "2",
+                "title": "David Martinez",
+                "description": "I love the security features of JupiterMeet Pro. Knowing that my meetings are encrypted gives me peace of mind.",
+                "image": "/images/user2.png"
+            },
+            {
+                "id": "3",
+                "title": "Emily Roberts",
+                "description": "Seamless integration with our workflow and excellent customer support. Highly recommend JupiterMeet!",
+                "image": "/images/user3.png"
+            },
+            {
+                "id": "4",
+                "title": "James Lee",
+                "description": "JupiterMeet is by far the best video conferencing tool we've used. The quality and reliability are outstanding!",
+                "image": "/images/user4.png"
+            }
+        ]
+    },
+    "coreValues": {
+        "label": "Core Values",
+        "title": "Our great values that we are proud of",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
+        "data": [
+            {
+                "title": "Security",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "bgColor": "bg-red-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Reliability",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "bgColor": "bg-green-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            },
+            {
+                "title": "Innovation",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "bgColor": "bg-blue-50",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'><path fill-rule='evenodd' d='M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219' clip-rule='evenodd' /></svg>"
+            }
+        ]
+    },
+    "compliance": {
+        "gdpr": "Security and data protection Highlight"
+    },
+    "faq": {
+        "label": "Frequently Asked Questions",
+        "icon": "faq_icon.png",
+        "title": "FAQs",
+        "description": "Common queries answered.",
+        "bgColor": "#ffffff",
+        "qa": {
+            "Do you accept custom development work?": "Yes, we do accept custom development work. Kindly send your requirements through email.",
+            "Do you provide WebRTC consultation?": "Yes, we do provide WebRTC consultation.",
+            "Do you provide installation service?": "Yes, we do provide professional installation service to install JupiterMeet on your server. Kindly contact us through email."
+        }
+    },
+    "cta": {
+        "title": "Your privacy, your control.",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+        "data": [
+            {
+                "title": "Check out",
+                "link": "products"
+            },
+            {
+                "title": "Contact us",
+                "link": "contact-us"
+            }
+        ]
+    },
+    "blogs": {
+        "label": "Our blogs",
+        "title": "Your privacy, your control.",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+        "data": [
+            {
+                "image": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+                "alt": "Blog image",
+                "date": "2020-03-16",
+                "dateDisplay": "Mar 16, 2020",
+                "category": "Marketing",
+                "title": "Boost your conversion rate",
+                "link": "blogs/boost-your-conversion-rate",
+                "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "author": {
+                    "name": "Ishan Shah",
+                    "role": "Founder / CEO",
+                    "link": "authors/ishan-shah",
+                    "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                }
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+                "alt": "Blog image",
+                "date": "2020-03-16",
+                "dateDisplay": "Mar 16, 2020",
+                "category": "Marketing",
+                "title": "Boost your conversion rate",
+                "link": "blogs/boost-your-conversion-rate",
+                "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "author": {
+                    "name": "Ishan Shah",
+                    "role": "Founder / CEO",
+                    "link": "authors/ishan-shah",
+                    "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                }
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+                "alt": "Blog image",
+                "date": "2020-03-16",
+                "dateDisplay": "Mar 16, 2020",
+                "category": "Marketing",
+                "title": "Boost your conversion rate",
+                "link": "blogs/boost-your-conversion-rate",
+                "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "author": {
+                    "name": "Ishan Shah",
+                    "role": "Founder / CEO",
+                    "link": "authors/ishan-shah",
+                    "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                }
+            }
+        ]
+    }
+}

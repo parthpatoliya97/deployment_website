@@ -1,0 +1,750 @@
+backend:
+  name: github
+  repo: https://github.com/parthpatoliya97/sveltia_cms_demo.git
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+  
+    files:
+      - label: "Meta Information Section"
+        name: "meta"
+        file: "$lib/$lib/content/home.json"
+        fields:
+          - label: "Meta Configuration"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Page Title", name: "pageTitle", widget: "string" }
+              - { label: "Meta Title", name: "metaTitle", widget: "string" }
+              - {label: "Image", name: "image",widget: "image"}
+              - {label: "Type", name: "type", widget: "string"}
+              - { label: "Meta Description", name: "description", widget: "text" }
+
+      - label: "Hero Section"
+        name: "hero"
+        file: "$lib/$lib/content/home.json"
+        fields:
+          - label: "Hero details"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - {label: "Primary Color",name: "PrimaryColor",widget: "string"}
+              - { label: "Background Color", name: "bgColor", widget: "string" }
+              - label: "CTA Buttons"
+                name: "ctas"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "link", name: "link", widget: "string" }
+
+      - label : "Logo Section"
+        name : "logos"
+        file : "$lib/$lib/content/home.json"
+        fields:
+          - label : "logos details"
+            name : "logos"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Background Color", name: "bgColor", widget: "string" }
+              - label : " Logo Images"
+                name : "images"
+                widget: "list"
+                fields:
+                  - {label: "Image", name: "src", widget: "image"}
+                  - {label: "Alt Text", name: "alt",widget: "string"}
+                             
+
+      - label: "Services Section"
+        name: "services"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Services details"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Service Items"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Background Color", name: "bgColor", widget: "string" }
+                  - { label: "link", name: "link", widget: "text" }
+                  - { label: "Icon", name: "icon", widget: "image" }
+
+      - label: "Products Section"
+        name: "products"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Products details"
+            name: "products"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Products List"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+                  - { label: "link", name: "link", widget: "string" }
+
+      - label: "Tech Section"
+        name: "tech"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Tech details"
+            name: "tech"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Tech Images"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+
+      - label: "Stats Section"
+        name: "stats"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Stats details"
+            name: "stats"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Background Image", name: "bgImage", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
+              - label: "Stats Data"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
+
+      - label: "World Dominance Section"
+        name: "worldDominance"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "World Dominance details"
+            name: "worldDominance"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Background Image", name: "bgImage", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" } 
+
+      - label: "Showcase Section"
+        name: "showcase"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Showcase details"
+            name: "showcase"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Background Color", name: "bgColor", widget: "string" }
+              - label: "Showcase Images"
+                name: "images"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+
+      - label: "Industries Section"
+        name: "industries"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Industries details"
+            name: "industries"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Industries List"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Target", name: "target", widget: "string" }
+                  - { label: "Background Color", name: "bgColor", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "image" }
+
+      - label: "Why Choose Us Section"
+        name: "whyChooseUs"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Why Choose Us details"
+            name: "whyChooseUs"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Background Color", name: "bgColor", widget: "string" }
+              - label: "Demo Images"
+                name: "demoImages"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+              - label: "Features List"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "ID", name: "id", widget: "number" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Background Color", name: "bgColor", widget: "string" }
+
+      - label: "Testimonials Section"
+        name: "testimonials"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Testimonials details"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Background Color", name: "bgColor", widget: "string" }
+              - label: "Testimonials List"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "ID", name: "id", widget: "number" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Image", name: "image", widget: "image" }
+
+      - label: "Core Values Section"
+        name: "coreValues"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Core Values details"
+            name: "coreValues"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Values List"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Background Color", name: "bgColor", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "image" }
+
+      - label: "Compliance Section"
+        name: "compliance"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Compliance details"
+            name: "compliance"
+            widget: "object"
+            fields:
+              - { label: "GDPR", name: "gdpr", widget: "string" }
+
+      - label: "FAQ Section"
+        name: "faq"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "FAQ details"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Background Color", name: "bgColor", widget: "string" }
+              - label: "Questions and Answers"
+                name: "qa"
+                widget: "list"
+                fields:
+                  - { label: "Question", name: "question", widget: "string" }
+                  - { label: "Answer", name: "answer", widget: "string" }
+
+      - label: "CTA Section"
+        name: "cta"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "CTA details"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label : "CTA Buttons"
+                name : "data"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title",widget: "string"}
+                  - {label: "link",name: "link",widget: "string"}
+              
+
+      - label: "Blogs Section"
+        name: "blogs"
+        file: "$lib/content/home.json"
+        fields:
+          - label: "Blogs details"
+            name: "blogs"
+            widget: "object"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Blog Posts"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "text" }
+                  - { label: "Date", name: "date", widget: "string" }
+                  - { label: "Display Date", name: "dateDisplay", widget: "string" }
+                  - { label: "Category", name: "category", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "link", name: "link", widget: "string" }
+                  - { label: "Excerpt", name: "excerpt", widget: "text" }
+                  - label: "Author Details"
+                    name: "author"
+                    widget: "object"
+                    fields:
+                      - { label: "Name", name: "name", widget: "string" }
+                      - { label: "Role", name: "role", widget: "string" }
+                      - { label: "link", name: "link", widget: "string" }
+                      - { label: "Image", name: "image", widget: "image" }
+
+              
+  - label: "Header & Footer"
+    name: "header-footer"
+  
+    files:
+      - label : "Banner Section"
+        name : "banner"
+        file : "$lib/content/header-footer.json"
+        fields:
+          - label: "Banner details"
+            name: "banner"
+            widget: "object"
+            fields:
+              - {label: "Live",name: "live",widget: "string"}
+              - {label: "Version",name: "Version",widget: "number"}
+              - {label: "Text",name: "text",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "link",name: "link",widget: "string"}
+              - {label: "Color Class",name: "colorClass",widget: "string"}
+
+      - label: "Header Section"
+        name: "header"
+        file: "$lib/content/header-footer.json"
+        fields:
+          - label: "Header details"
+            name: "header"
+            widget: "object"
+            fields:
+              - label: "Logo"
+                name: "logo"
+                widget: "object"
+                fields:
+                  - { label: "Logo Image", name: "image", widget: "image" }
+                  - { label: "Alt Text", name: "altText", widget: "string" }
+              - label: "Menu Items"
+                name: "menuItems"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "link", name: "link", widget: "string", required: false }
+                  - label: "Submenu"
+                    name: "submenu"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "link", name: "link", widget: "string" }
+              - label: "CTA Button"
+                name: "cta"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "link", name: "link", widget: "string" }
+
+      - label: "Footer Section"
+        name: "footer"
+        file: "$lib/content/header-footer.json"
+        fields:
+          - label: "Footer details"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Logo"
+                name: "logo"
+                widget: "object"
+                fields:
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Alt Text", name: "alt", widget: "string"}
+                  - {label: "Description", name: "description", widget: "string"}
+              - label: "Social links"
+                name: "sociallinks"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "link", name: "link", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string"}
+              - label: "Menu Items"
+                name: "menuItems"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - label: "Submenu"
+                    name: "submenu"
+                    widget: "list"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "link", name: "link", widget: "string"}
+              - label: "Copyright"
+                name: "copyright"
+                widget: "string"
+                fields:
+                - {label: "copyright",name: "copyright",widget: "string"}
+
+
+  - label : "Jupitermeet Section"
+    name : "jupitermeet"
+
+    files:
+      - label : "Meta Information Section"
+        name : "meta"
+        file : "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Meta details"
+            name : "meta"
+            widget: "object"
+            fields:
+              - {label: "Slug",name: "slug",widget: "string"}
+              - {label: "pageTitle",name: "pageTitle",widget: "string"}
+              - {label: "metaTitle",name: "metaTitle",widget: "string"}
+              - {label: "Image",name: "image",widget: "image"}
+              - {label: "Type",name: "type",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+
+      - label: "Hero Section"
+        name : "hero"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Hero Details"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - {label: "Image",name: "image",widget: "image"}
+              - {label: "Alt Text",name: "alt",widget: "string"}
+              - {label: "PrimaryColor",name: "primaryColor",widget: "string"}
+              - label: "CTA Buttons"
+                name: "ctas"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Link",name: "link",widget: "string"}
+
+      - label: "Logo Section"
+        name: "logos"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Logos Details"
+            name: "logos"
+            widget: "object"
+            fields:
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+              - {label: "Background Color",name: "bgColor",widget: "string"}
+              - label : "Logo Images"
+                name : "images"
+                widget: "list"
+                fields:
+                  - {label: "Image",name: "src",widget: "image"}
+                  - {label: "Alt Text",name: "alt",widget: "string"}
+
+      - label : "Advantages Section"
+        name : "advantages"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label : "Advantages in Details"
+            name : "advantages"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+              - label : "advantages Data"
+                name : "data"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"}
+                  - {label: "Background Color",name: "bgColor",widget: "string"}
+                  - {label: "bgColorOverlay",name: "bgColorOverlay",widget: "string"}
+                  - {label: "Image",name: "image",widget: "image"}
+
+      - label: "Make Money Section"
+        name: "makeMoney"
+        file : "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Make Money Details"
+            name: "makeMoney"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+              - {label: "Image",name: "image",widget: "image"}
+              - label: "data section"
+                name : "data"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"}
+                   
+      - label : "Feature Section"
+        name : "features"      
+        file : "$lib/content/jupitermeet.json"          
+        fields:
+          - label : "Features Details"
+            name : "features"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+              - label : "Features Data"
+                name: "data"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"}
+                  - {label: "Background Color",name: "bgColor",widget: "string"}
+                  - {label: "Link",name: "link",widget: "string"}
+                  - {label: "Icon",name: "icon",widget: "image"}
+
+      - label : "Pricing Section"
+        name : "pricing"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Pricing Details"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+              - label: "Pricing Data"
+                name: "data"
+                widget: "list"
+                fields:
+                  - {label: "ID",name: "id",widget: "number"}
+                  - {label: "Tier ID",name: "tierId",widget: "string"}
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"}
+                  - {label: "Price",name: "price",widget: "string"}
+                  - {label: "Extra Classes",name: "extraClasses",widget: "string"}
+                  - label : "Features Data"
+                    name : "features"
+                    widget : "list"
+                    fields:
+                      - {label: "Text",name: "text",widget: "string"}
+                      - {label: "Available",name: "available",widget: "boolean"}
+                      
+                  - {label: "Link",name: "link",widget: "string"}
+                  - {label: "Popularity",name: "popular",widget: "boolean"}
+
+      - label : "How It Works Section"
+        name : "howItWorks"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label: "HowItWorks Details"
+            name: "howItWorks"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}
+              - label: "Data Section"
+                name: "data"
+                widget: "list"
+                fields:
+                  - {label: "ID",name: "id",widget: "number"}
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"}
+
+      - label : "Gallery Section"
+        name : "gallery"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Gallery Portion"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}  
+              - label : "Images"
+                name : "data"
+                widget: "list"
+                fields:
+                  - {label: "Picture",name: "src",widget: "image"}
+                  - {label: "Alt Text",name: "alt",widget: "string"}
+
+      - label : "Benefits Section"
+        name : "benefits"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label : "Benefits Details"
+            name : "benefits"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"}  
+              - label: "Images"
+                name: "data"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"} 
+                  - {label: "Picture",name: "image",widget: "image"} 
+                  
+      - label : "Testimonials Section"
+        name : "testimonials"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label : "Testimonials Details"
+            name : "testimonials"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"} 
+              - label: "Testimonials Data"
+                name: "data"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Category",name: "category",widget: "string"}
+                  - {label: "Username",name: "username",widget: "string"}
+
+      - label : "FAQ Section"
+        name : "faqs"
+        file : "$lib/content/jupitermeet.json"
+        fields:
+          - label: "FAQ Details"
+            name: "faqs"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"} 
+              - label : "FAQ Question&Answers"
+                name : "data"
+                widget: "list"
+                fields:
+                  - {label: "Title",name: "title",widget: "string"}
+                  - {label: "Description",name: "description",widget: "text"}
+                  - {label: "Open",name: "open",widget": "boolean"}
+
+      - label: "CTA Section"
+        name : "ctas"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - {label: "Title",name: "title",widget: "String"}
+          - label: "CTA Buttons"
+            name: "data"
+            widget: "list"
+            fields:
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Link",name: "link",widget: "string"}
+
+      - label : "Blog Section"
+        name : "blogs"
+        file: "$lib/content/jupitermeet.json"
+        fields:
+          - label: "Blog Details"
+            name : "blogs"
+            widget: "object"
+            fields:
+              - {label: "Label",name: "label",widget: "string"}
+              - {label: "Title",name: "title",widget: "string"}
+              - {label: "Description",name: "description",widget: "text"} 
+              - label: "Blog Posts"
+                name: "data"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Alt Text", name: "alt", widget: "text" }
+                  - { label: "Date", name: "date", widget: "string" }
+                  - { label: "Display Date", name: "dateDisplay", widget: "string" }
+                  - { label: "Category", name: "category", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "link", name: "link", widget: "string" }
+                  - { label: "Excerpt", name: "excerpt", widget: "text" }
+                  - label : "Author Details"
+                    name : "author"
+                    widget: "object"
+                    fields:
+                      - { label: "Name", name: "name", widget: "string" }
+                      - { label: "Role", name: "role", widget: "string" }
+                      - { label: "link", name: "link", widget: "string" }
+                      - { label: "Image", name: "image", widget: "image" }
+
+
+                      
+              
+              
+                  
+
+              
+                  
+             
+              
+              
+                  
+                   
+                                 
+
+                  
+              
+      
+              
+
+                
+                  
+              
+                  
+              
+              

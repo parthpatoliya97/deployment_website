@@ -1,0 +1,505 @@
+{
+    "meta": {
+        "slug": "/products/jupitermeet",
+        "pageTitle": "JupiterMeet - White-lable video conferencing software in WebRTC",
+        "metaTitle": "JupiterMeet - White-lable video conferencing software in WebRTC",
+        "image": "/images/jupitermeet.png",
+        "type": "website or article",
+        "description": "JupiterMeet is awesome!."
+    },
+    "hero": {
+        "title": "JupiterMeet - The Ultimate Video Conferencing Solution",
+        "description": "Host secure, high-quality video conferences with ease. No installations, no limits, just seamless communication.",
+        "image": "/images/jupitermeet.png",
+        "alt": "JupiterMeet",
+        "primaryColor": "green",
+        "ctas": [
+            {
+                "title": "Buy Now",
+                "link": "https://codecanyon.net/item/jupitermeet-video-conference/31388330"
+            },
+            {
+                "title": "Try Demo",
+                "link": "https://meet.thertclabs.com/"
+            }
+        ]
+    },
+    "logos": {
+        "title": "Trusted by Businesses Worldwide",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+        "bgColor": "#ffffff",
+        "images": [
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg",
+                "alt": "Transistor"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg",
+                "alt": "Reform"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/tuple-logo-white.svg",
+                "alt": "Tuple"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg",
+                "alt": "SavvyCal"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/statamic-logo-white.svg",
+                "alt": "Statamic"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/transistor-logo-white.svg",
+                "alt": "Transistor"
+            },
+            {
+                "src": "https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg",
+                "alt": "Reform"
+            }
+        ]
+    },
+    "advantages": {
+        "label": "Advantages",
+        "title": "Why Choose JupiterMeet?",
+        "description": "Why choose this software?",
+        "data": [
+            {
+                "title": "Peer-to-Peer WebRTC Technology",
+                "description": "Achieve real-time communication with lightning-fast peer-to-peer connections.",
+                "bgColor": "bg-rose-500",
+                "bgColorOverlay": "bg-rose-100",
+                "image": "/images/jupitermeet.png"
+            },
+            {
+                "title": "End-to-End Encryption",
+                "description": "Your conversations stay private with our advanced security protocols.",
+                "bgColor": "bg-blue-500",
+                "bgColorOverlay": "bg-blue-100",
+                "image": "/images/jupitermeet.png"
+            },
+            {
+                "title": "SaaS & Self-Hosted",
+                "bgColor": "bg-lime-500",
+                "bgColorOverlay": "bg-lime-100",
+                "description": "Use it as a SaaS platform or host it on your own server for complete control.",
+                "image": "/images/jupitermeet.png"
+            },
+            {
+                "title": "4K Video Support",
+                "bgColor": "bg-red-500",
+                "bgColorOverlay": "g-red-100",
+                "description": "Enjoy ultra-clear, high-definition meetings with 4K resolution support.",
+                "image": "/images/jupitermeet.png"
+            },
+            {
+                "title": "White-Label Branding",
+                "bgColor": "bg-green-500",
+                "bgColorOverlay": "bg-green-100",
+                "description": "Customize the platform with your brand and domain for a professional look.",
+                "image": "/images/jupitermeet.png"
+            }
+        ]
+    },
+    "makeMoney": {
+        "label": "Monetization",
+        "title": "Make money with JupiterMeet",
+        "description": "With SaaS module, you can accept payment and charge your users",
+        "image": "/images/jupitermeet.png",
+        "data": [
+            {
+                "title": "Multiple Payment Gateways",
+                "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            },
+            {
+                "title": "Recurring Payments",
+                "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            },
+            {
+                "title": "Plans and more",
+                "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
+            }
+        ]
+    },
+    "features": {
+        "label": "Features",
+        "title": "Our top features",
+        "description": "Packed with powerful features to elevate your online meetings.",
+        "data": [
+            {
+                "title": "Group chat",
+                "description": "Participants can send text messages to everyone in the meeting, making communication seamless. It allows instant sharing of information, questions, and discussions without disrupting the speaker. Emojis and file sharing within the chat make interactions more engaging and efficient.",
+                "bgColor": "bg-rose-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            },
+            {
+                "title": "Screen Sharing",
+                "description": "Participants can send text messages to everyone in the meeting, making communication seamless. It allows instant sharing of information, questions, and discussions without disrupting the speaker. Emojis and file sharing within the chat make interactions more engaging and efficient.",
+                "bgColor": "bg-lime-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            },
+            {
+                "title": "Collaborative Whiteboard",
+                "description": "Participants can send text messages to everyone in the meeting, making communication seamless. It allows instant sharing of information, questions, and discussions without disrupting the speaker. Emojis and file sharing within the chat make interactions more engaging and efficient.",
+                "bgColor": "bg-indigo-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            },
+            {
+                "title": "Meeting Recording",
+                "description": "Participants can send text messages to everyone in the meeting, making communication seamless. It allows instant sharing of information, questions, and discussions without disrupting the speaker. Emojis and file sharing within the chat make interactions more engaging and efficient.",
+                "bgColor": "bg-green-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            },
+            {
+                "title": "Hand Raise",
+                "description": "Participants can send text messages to everyone in the meeting, making communication seamless. It allows instant sharing of information, questions, and discussions without disrupting the speaker. Emojis and file sharing within the chat make interactions more engaging and efficient.",
+                "bgColor": "bg-yellow-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            },
+            {
+                "title": "Meeting Password",
+                "description": "Participants can send text messages to everyone in the meeting, making communication seamless. It allows instant sharing of information, questions, and discussions without disrupting the speaker. Emojis and file sharing within the chat make interactions more engaging and efficient.",
+                "bgColor": "bg-yellow-50",
+                "link": "services/development",
+                "icon": "<svg class='size-5 flex-none text-rose-600' viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'> <path fill-rule='evenodd' d='M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z' clip-rule='evenodd' /> </svg>"
+            }
+        ]
+    },
+    "pricing": {
+        "label": "Pricing",
+        "title": "Choose Your Plan",
+        "description": "One-time payment for lifetime access - no recurring fees!",
+        "data": [
+            {
+                "id": 1,
+                "tierId": "tier-freelancer",
+                "title": "Basic",
+                "description": "Regular license with 6 months support",
+                "price": "$89",
+                "extraClasses": "lg:mt-8 lg:rounded-r-none",
+                "features": [
+                    {
+                        "text": "6 months support",
+                        "available": true
+                    },
+                    {
+                        "text": "All features",
+                        "available": true
+                    },
+                    {
+                        "text": "Life-time license",
+                        "available": true
+                    },
+                    {
+                        "text": "Life-time updates",
+                        "available": true
+                    },
+                    {
+                        "text": "SaaS module",
+                        "available": false
+                    },
+                    {
+                        "text": "Resell the code",
+                        "available": false
+                    }
+                ],
+                "link": "https://codecanyon.net/cart/configure_before_adding/31388330",
+                "popular": false
+            },
+            {
+                "id": 2,
+                "tierId": "tier-startup",
+                "title": "Advanced",
+                "description": "Regular license with 12 months support",
+                "price": "$120",
+                "extraClasses": "lg:z-10 lg:rounded-b-none",
+                "features": [
+                    {
+                        "text": "12 months support",
+                        "available": true
+                    },
+                    {
+                        "text": "All features",
+                        "available": true
+                    },
+                    {
+                        "text": "Life-time license",
+                        "available": true
+                    },
+                    {
+                        "text": "Life-time updates",
+                        "available": true
+                    },
+                    {
+                        "text": "SaaS module",
+                        "available": false
+                    },
+                    {
+                        "text": "Resell script",
+                        "available": false
+                    }
+                ],
+                "link": "https://codecanyon.net/cart/configure_before_adding/31388330?support=bundle_12month",
+                "popular": true
+            },
+            {
+                "id": 3,
+                "tierId": "tier-enterprise",
+                "title": "Extended",
+                "description": "Extended license with the ability to charge your users with SaaS module",
+                "price": "$449",
+                "extraClasses": "lg:mt-8 lg:rounded-l-none",
+                "features": [
+                    {
+                        "text": "6 months support",
+                        "available": true
+                    },
+                    {
+                        "text": "All features",
+                        "available": true
+                    },
+                    {
+                        "text": "Life-time license",
+                        "available": true
+                    },
+                    {
+                        "text": "Life-time updates",
+                        "available": true
+                    },
+                    {
+                        "text": "SaaS module",
+                        "available": true
+                    },
+                    {
+                        "text": "Resell script",
+                        "available": true
+                    }
+                ],
+                "link": "https://codecanyon.net/cart/configure_before_adding/31388330?license=extended",
+                "popular": false
+            }
+        ]
+    },
+    "howItWorks": {
+        "label": "How it Works",
+        "title": "Get Started in Minutes",
+        "description": "Set up and start hosting video conferences effortlessly.",
+        "data": [
+            {
+                "id": "1",
+                "title": "Purchase & Install",
+                "description": "Buy JupiterMeet from CodeCanyon. Set up a VPS (minimum 2GB RAM) and install the script using the provided auto-installation shell script. If you need help, you can opt for professional installation services."
+            },
+            {
+                "id": "2",
+                "title": "Customize & Configure",
+                "description": "White-label the platform by adding your logo, colors, and branding from the admin panel. Configure meeting settings, SMTP for emails, and security features like reCAPTCHA and password protection. Enable or disable features like recording, chat, and screen sharing as per your needs."
+            },
+            {
+                "id": "3",
+                "title": "Start Hosting Meetings",
+                "description": "Create an instant meeting or schedule one and send invites via email. Share the meeting link with participants and start a secure, high-quality video call. Enjoy features like screen sharing, chat, whiteboard, and recording with no third-party restrictions."
+            }
+        ]
+    },
+    "gallery": {
+        "label": "Gallery",
+        "title": "App Screenshots (slider)",
+        "description": "Explore JupiterMeet's clean and intuitive interface.",
+        "data": [
+            {
+                "src": "/images/jupitermeet.png",
+                "alt": "JupiterMeet Screenshot 1"
+            },
+            {
+                "src": "/images/jupitermeet.png",
+                "alt": "JupiterMeet Screenshot 2"
+            },
+            {
+                "src": "/images/jupitermeet.png",
+                "alt": "JupiterMeet Screenshot 3"
+            },
+            {
+                "src": "/images/jupitermeet.png",
+                "alt": "JupiterMeet Screenshot 4"
+            },
+            {
+                "src": "/images/jupitermeet.png",
+                "alt": "JupiterMeet Screenshot 5"
+            },
+            {
+                "src": "/images/jupitermeet.png",
+                "alt": "JupiterMeet Screenshot 6"
+            }
+        ]
+    },
+    "benefits": {
+        "label": "Advantages",
+        "title": "Why choose JupiterMeet?",
+        "description": "Amazing benefits",
+        "data": [
+            {
+                "title": "Mobile friendly",
+                "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+                "image": "https://tailwindui.com/plus-assets/img/component-images/bento-03-mobile-friendly.png"
+            },
+            {
+                "title": "No Third-Party APIs or Usage Fees",
+                "description": "JupiterMeet is fully self-hosted, meaning no hidden costs or per-minute charges. Enjoy unlimited meetings without worrying about expensive subscriptions. Since it runs on your own VPS, you have complete control over your infrastructure.",
+                "image": "https://tailwindui.com/plus-assets/img/component-images/bento-03-performance.png"
+            },
+            {
+                "title": "End-to-End Encryption",
+                "description": "Your video meetings are fully encrypted, ensuring maximum security and privacy. No third-party access—your data remains completely under your control. Perfect for confidential business discussions, telemedicine, and secure collaborations.",
+                "image": "https://tailwindui.com/plus-assets/img/component-images/bento-03-security.png"
+            },
+            {
+                "title": "100% White-Label & Customizable",
+                "description": "Easily brand the platform with your logo, colors, and domain name. Modify features, UI, and workflows to suit your business needs. Unlike Google Meet or Zoom, it feels like your own professional video solution.",
+                "image": "https://tailwindui.com/plus-assets/img/component-images/bento-03-mobile-friendly.png"
+            }
+        ]
+    },
+    "testimonials": {
+        "label": "Testimonials",
+        "title": "What Our Customers Say",
+        "description": "Hear from our happy users who trust JupiterMeet for their online meetings.",
+        "data": [
+            {
+                "title": "This was my best purchase on codecanyon! The support is amazing, the code is perfect, you can buy without fear! Congratulations to the entire team at TheRTCLabs Everything 100%",
+                "category": "Customer support",
+                "username": "flaviocpaulino"
+            },
+            {
+                "title": "Very good software ! Work well and also tec support is fast and resolve. For best result you need to be little expert on dedicated vps server. But if you are able, this is the best streaming software at the best price value. You can buy !",
+                "category": "Code Quality",
+                "username": "pintoalex"
+            },
+            {
+                "title": "Quick and realible support, I can't say more than thank you for your kind support, my site works fine as I expected. 1000000 times Thank you.",
+                "category": "Customer Support",
+                "username": "Mohamoud"
+            },
+            {
+                "title": "5 star rating for great code & customer support. Excellent customer support each time I have got. Thanks",
+                "category": "Customer Support",
+                "username": "progresstechbd"
+            },
+            {
+                "title": "Great customer support. Thumb up to you guyz",
+                "category": "Customer Support",
+                "username": "Dev_Solutions"
+            },
+            {
+                "title": "Thanks so much for helping me out. This is the best service I have ever received on codecanyon. It is an amazing product, well coded and I strongly recommend this as a custom video solution. Thanks again!",
+                "category": "Customer Support",
+                "username": "LoonyLemon"
+            }
+        ]
+    },
+    "faqs": {
+        "label": "Frequently Asked Questions",
+        "title": "Got Questions? We've Got Answers!",
+        "description": "Find answers to the most common questions about JupiterMeet.",
+        "data": [
+            {
+                "title": "Which kind of servers do I need?",
+                "description": "You will need a VPS with at least 2 GB of RAM. Ubuntu 18.04 and CentOS 7 are preferred.",
+                "open": false
+            },
+            {
+                "title": "From where I can buy this script?",
+                "description": "You can directly buy it from the above Envato Market/CodeCanyon link.",
+                "open": false
+            },
+            {
+                "title": "Do I need to pay any third-party API or services for video meetings?",
+                "description": "No, JupiterMeet is developed using the browser's native APIs. So, you don't need to subscribe to any services.",
+                "open": false
+            },
+            {
+                "title": "How can I make money from this?",
+                "description": "You can create subscription plans and configure payment modules. The users will need to pay a monthly or yearly recurring fee directly to you. Stripe and PayPal are integrated. An extended license is required to make money from this script.",
+                "open": false
+            },
+            {
+                "title": "Can I set my own logo and color?",
+                "description": "Yes, you can rebrand the entire web application from the admin panel. Where you can set your logo, brand color, and intro texts.",
+                "open": false
+            }
+        ]
+    },
+    "ctas": {
+        "title": "Ready to dive in? <br>Get your own copy today.",
+        "data": [
+            {
+                "title": "Buy Now",
+                "link": "https://codecanyon.net/item/jupitermeet-video-conference/31388330"
+            },
+            {
+                "title": "Try Demo",
+                "link": "https://meet.thertclabs.com/"
+            }
+        ]
+    },
+    "blogs": {
+        "label": "Our blogs",
+        "title": "Your privacy, your control.",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.",
+        "data": [
+            {
+                "image": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+                "alt": "Blog image",
+                "date": "2020-03-16",
+                "dateDisplay": "Mar 16, 2020",
+                "category": "Marketing",
+                "title": "Boost your conversion rate",
+                "link": "blogs/boost-your-conversion-rate",
+                "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "author": {
+                    "name": "Ishan Shah",
+                    "role": "Founder / CEO",
+                    "link": "authors/ishan-shah",
+                    "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                }
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+                "alt": "Blog image",
+                "date": "2020-03-16",
+                "dateDisplay": "Mar 16, 2020",
+                "category": "Marketing",
+                "title": "Boost your conversion rate",
+                "link": "blogs/boost-your-conversion-rate",
+                "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "author": {
+                    "name": "Ishan Shah",
+                    "role": "Founder / CEO",
+                    "link": "authors/ishan-shah",
+                    "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                }
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+                "alt": "Blog image",
+                "date": "2020-03-16",
+                "dateDisplay": "Mar 16, 2020",
+                "category": "Marketing",
+                "title": "Boost your conversion rate",
+                "link": "blogs/boost-your-conversion-rate",
+                "excerpt": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "author": {
+                    "name": "Ishan Shah",
+                    "role": "Founder / CEO",
+                    "link": "authors/ishan-shah",
+                    "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                }
+            }
+        ]
+    }
+}
